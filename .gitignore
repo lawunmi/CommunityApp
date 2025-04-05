@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables
+**/.env
+backend/config/env/.env
+**/config/env/.env
+.env.local
+.env.development
+.env.production
+
+# Build files
+**/dist/
+**/build/
+frontend/.next/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db

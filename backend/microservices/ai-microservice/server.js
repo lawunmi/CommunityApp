@@ -10,13 +10,13 @@ const app = configureExpress();
 connectDB();
 
 // Import routes
-//const commEngRoutes = require('./routes');
+//const userAuthRoutes = require('./routes');
 
 // Mount routes
-//app.use('/api/auth', commEngRoutes);
+//app.use('/api/auth', userAuthRoutes);
 
 // Start server
-const PORT = config.services.communityengagement;
+const PORT = config.services.ai;
 app.listen(PORT, () => {
-  console.log(`Community Engagement Service running on port ${PORT}`);
+  console.log(`AI Service running on port ${PORT}`);
 });

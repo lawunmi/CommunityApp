@@ -10,10 +10,10 @@ const app = configureExpress();
 connectDB();
 
 // Import routes
-const businessEventRoutes = require('./routes');
+//const businessEventRoutes = require('./routes');
 
 // Mount routes
-app.use('/api/auth', businessEventRoutes);
+//app.use('/api/auth', businessEventRoutes);
 
 // Start server
 const PORT = config.services.businessevent;

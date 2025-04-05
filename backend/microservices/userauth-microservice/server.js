@@ -10,10 +10,10 @@ const app = configureExpress();
 connectDB();
 
 // Import routes
-const userAuthRoutes = require('./routes');
+//const userAuthRoutes = require('./routes');
 
 // Mount routes
-app.use('/api/auth', userAuthRoutes);
+//app.use('/api/auth', userAuthRoutes);
 
 // Start server
 const PORT = config.services.userauth;
